@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #sai{
+            padding: 10px 20px;
+            border: 5px solid red;
+            margin: 10px 20px 40px 50px;
+        } */
+         .main div{
+            padding: 10px;
+            border: 2px solid red;
+         }
+         .main{
+            display: grid;
+            grid-template-columns: 5cm 20cm 5cm;
+            grid-template-rows: 1.5cm 15cm 1.5cm;
+            gap:10px
+         }
+         .d1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+            align-content: center; 
+            background-color: aqua;    
+            }
+            .d2{
+                background-color: antiquewhite;
+            }
+            .d3{
+                background-color: blueviolet;
+            }
+            .d4{
+                background-color: blanchedalmond;
+            }
+            .d5{
+                grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+            align-content: center; 
+            background-color: black;
+            color: red;
+            }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">Header</div>
+        <div class="d2">Naviagataion</div>
+        <div class="d3">Contact</div>
+        <div class="d4"></div>
+        <div class="d5">Footer</div>
+    </div>
+</body>
+</html>
